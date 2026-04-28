@@ -41,7 +41,7 @@ Siden `~/.zshrc` bare peker på `aliases.sh` i dette repoet, får du alle nye al
 | Alias | Kommando | Beskrivelse |
 |-------|----------|-------------|
 | `gbuild` | `./gradlew build` | Bygg Gradle-prosjekt |
-| `glint`  | `./gradlew lint`  | Kjør Gradle lint |
+| `glint`  | `./gradlew ktlintFormat`  | Kjør Gradle ktlint-formattering |
 | `brewup` | `brew update && brew upgrade && brew cleanup` | Oppdater og rydd Homebrew |
 
 ## Avinstallere
